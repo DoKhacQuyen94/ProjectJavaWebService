@@ -3,6 +3,7 @@ package rikkei.management_course.controller;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import rikkei.management_course.model.dto.request.SubmissionRequest;
@@ -16,11 +17,10 @@ public class StudentSubmissionController {
 
     private final StudentSubmissionService studentSubmissionService;
 
-    // POST /api/v1/student/submissions
-    @PostMapping
-    public ResponseEntity<SubmissionResponse> submitAssignment(@Valid @RequestBody SubmissionRequest request) {
+    // POST /api/v1/student/submissions -> Đón nhận dữ liệu mã hóa đa phần (File + Text)
+    @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public ResponseEntity<SubmissionResponse> submitAssignment(@Valid @ModelAttribute SubmissionRequest request) {
         SubmissionResponse response = studentSubmissionService.submitAssignment(request);
-        // Trả về mã 201 Created theo đúng chuẩn thiết kế RESTful khi tạo/nộp bài thành công
         return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
 }

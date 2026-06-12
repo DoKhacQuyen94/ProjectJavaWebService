@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.core.Authentication;
@@ -50,20 +51,20 @@ class LecturerMaterialServiceTest {
 
     @BeforeEach
     void setUp() {
+        // Cấu hình SecurityContext giả lập
         SecurityContext securityContext = mock(SecurityContext.class);
         Authentication authentication = mock(Authentication.class);
 
-        // THÊM chữ lenient() vào trước hai dòng khiêu vũ này:
-        org.mockito.Mockito.lenient().when(securityContext.getAuthentication()).thenReturn(authentication);
-        org.mockito.Mockito.lenient().when(authentication.getName()).thenReturn("lecturer_quyen");
-
+        // Sử dụng lenient() để tránh lỗi UnnecessaryStubbingException khi chạy test case file trống
+        Mockito.lenient().when(securityContext.getAuthentication()).thenReturn(authentication);
+        Mockito.lenient().when(authentication.getName()).thenReturn("lecturer_quyen");
         SecurityContextHolder.setContext(securityContext);
 
         mockLecturer = User.builder().id(1L).username("lecturer_quyen").build();
         mockCourse = Course.builder().id(100L).courseName("Java Web").lecturer(mockLecturer).build();
     }
 
-    // --- TEST CASE 1: Tải học liệu thành công 100% ---
+    // T1: Upload thành công
     @Test
     void uploadMaterial_Success() throws IOException {
         when(multipartFile.isEmpty()).thenReturn(false);
@@ -73,13 +74,13 @@ class LecturerMaterialServiceTest {
         when(userRepository.findByUsername("lecturer_quyen")).thenReturn(Optional.of(mockLecturer));
         when(courseRepository.findById(100L)).thenReturn(Optional.of(mockCourse));
 
-        // Giả lập luồng đẩy file lên Cloudinary trả về map kết quả kèm URL hầm hố
         Map<String, Object> cloudinaryResult = new HashMap<>();
         cloudinaryResult.put("secure_url", "https://res.cloudinary.com/test.pdf");
         when(cloudinary.uploader()).thenReturn(uploader);
         when(uploader.upload(any(byte[].class), any(Map.class))).thenReturn(cloudinaryResult);
 
-        LectureMaterial savedEntity = LectureMaterial.builder().id(10L).title("Slide 1").fileUrl("https://res.cloudinary.com/test.pdf").course(mockCourse).build();
+        LectureMaterial savedEntity = LectureMaterial.builder()
+                .id(10L).title("Slide 1").fileUrl("https://res.cloudinary.com/test.pdf").course(mockCourse).build();
         when(materialRepository.save(any(LectureMaterial.class))).thenReturn(savedEntity);
 
         LectureMaterialResponse response = lecturerMaterialService.uploadMaterial("Slide 1", 100L, multipartFile);
@@ -89,7 +90,7 @@ class LecturerMaterialServiceTest {
         verify(materialRepository, times(1)).save(any(LectureMaterial.class));
     }
 
-    // --- TEST CASE 2: File rỗng -> Tung lỗi IllegalArgumentException ---
+    // T2: File rỗng ném lỗi 400
     @Test
     void uploadMaterial_EmptyFile_ThrowsIllegalArgumentException() {
         when(multipartFile.isEmpty()).thenReturn(true);
@@ -99,7 +100,7 @@ class LecturerMaterialServiceTest {
         );
     }
 
-    // --- TEST CASE 3: Không tìm thấy Giảng viên đăng nhập trong DB -> Tung lỗi ---
+    // T3: Không tìm thấy giảng viên
     @Test
     void uploadMaterial_LecturerNotFound_ThrowsResourceNotFoundException() {
         when(multipartFile.isEmpty()).thenReturn(false);
@@ -110,7 +111,7 @@ class LecturerMaterialServiceTest {
         );
     }
 
-    // --- TEST CASE 4: Không tìm thấy Khóa học tương ứng với ID -> Tung lỗi ---
+    // T4: Không tìm thấy khóa học
     @Test
     void uploadMaterial_CourseNotFound_ThrowsResourceNotFoundException() {
         when(multipartFile.isEmpty()).thenReturn(false);
@@ -122,13 +123,12 @@ class LecturerMaterialServiceTest {
         );
     }
 
-    // --- TEST CASE 5: Giảng viên chấm lớp/đăng bài lớp của người khác -> Bị chặn 403 ---
+    // T5: Giảng viên lấn sân lớp khác bị chặn 403
     @Test
     void uploadMaterial_AccessDenied_ThrowsAccessDeniedException() {
         when(multipartFile.isEmpty()).thenReturn(false);
         when(userRepository.findByUsername("lecturer_quyen")).thenReturn(Optional.of(mockLecturer));
 
-        // Khóa học này thuộc về một giảng viên khác hoàn toàn (ID = 999)
         User anotherLecturer = User.builder().id(999L).username("lecturer_tam").build();
         Course strangersCourse = Course.builder().id(100L).lecturer(anotherLecturer).build();
         when(courseRepository.findById(100L)).thenReturn(Optional.of(strangersCourse));

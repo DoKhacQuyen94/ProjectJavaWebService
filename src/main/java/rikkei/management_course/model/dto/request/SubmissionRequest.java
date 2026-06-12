@@ -1,9 +1,8 @@
 package rikkei.management_course.model.dto.request;
 
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 import lombok.Data;
+import org.springframework.web.multipart.MultipartFile;
 
 @Data
 public class SubmissionRequest {
@@ -11,10 +10,9 @@ public class SubmissionRequest {
     @NotNull(message = "ID bài tập không được để trống")
     private Long assignmentId;
 
-    @NotBlank(message = "Link GitHub không được để trống")
-    @Pattern(
-            regexp = "^(https:\\/\\/)?(www\\.)?github\\.com\\/[a-zA-Z0-9_-]+\\/[a-zA-Z0-9_-]+.*$",
-            message = "Đường dẫn phải là một link GitHub hợp lệ (Ví dụ: https://github.com/username/repository)"
-    )
+    // Bỏ @NotBlank và @Pattern cũ vì Sinh viên có thể chọn nộp File thay vì link GitHub
     private String githubUrl;
+
+    // THÊM TRƯỜNG FILE ĐỂ THỎA MÃN ĐIỀU KIỆN HỘI ĐỒNG CHẤM
+    private MultipartFile file;
 }

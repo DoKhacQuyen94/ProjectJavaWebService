@@ -3,9 +3,15 @@ package rikkei.management_course.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import rikkei.management_course.exception.ResourceConflictException;
+import rikkei.management_course.exception.ResourceNotFoundException;
+import rikkei.management_course.model.dto.request.UserCreateRequest;
+import rikkei.management_course.model.dto.request.UserUpdateRequest;
 import rikkei.management_course.model.dto.response.UserResponse;
+import rikkei.management_course.model.entity.RoleEnum;
 import rikkei.management_course.model.entity.User;
 import rikkei.management_course.repository.UserRepository;
 
@@ -14,6 +20,7 @@ import rikkei.management_course.repository.UserRepository;
 public class AdminUserService {
 
     private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
 
     @Transactional(readOnly = true)
     public Page<UserResponse> getAllUsers(String keyword, Pageable pageable) {
@@ -36,5 +43,65 @@ public class AdminUserService {
                 .orElseThrow(() -> new RuntimeException("Không tìm thấy người dùng"));
         user.setActive(false); // Khóa tài khoản
         userRepository.save(user);
+    }
+
+    @Transactional
+    public UserResponse createUser(UserCreateRequest request) {
+        if (userRepository.existsByUsername(request.getUsername())) {
+            throw new ResourceConflictException("Username này đã tồn tại trên hệ thống!");
+        }
+        if (userRepository.existsByEmail(request.getEmail())) {
+            throw new ResourceConflictException("Email này đã được đăng ký tài khoản khác!");
+        }
+
+        // Khởi tạo thực thể và băm mật khẩu chuẩn BCrypt xịn
+        User user = User.builder()
+                .username(request.getUsername())
+                .password(passwordEncoder.encode(request.getPassword()))
+                .email(request.getEmail())
+                .role(RoleEnum.valueOf(request.getRole().toUpperCase()))
+                .isActive(true) // Mặc định tạo xong là active luôn
+                .build();
+
+        User savedUser = userRepository.save(user);
+        return mapToUserResponse(savedUser);
+    }
+    @Transactional
+    public UserResponse updateUser(Long id, UserUpdateRequest request) {
+        User user = userRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Không tìm thấy người dùng cần cập nhật"));
+
+        // Kiểm tra xem email mới có bị trùng với người khác không
+        if (!user.getEmail().equalsIgnoreCase(request.getEmail()) && userRepository.existsByEmail(request.getEmail())) {
+            throw new ResourceConflictException("Email mới này đã trùng với một tài khoản khác!");
+        }
+
+        user.setEmail(request.getEmail());
+        user.setRole(RoleEnum.valueOf(request.getRole().toUpperCase()));
+        user.setActive(request.getIsActive());
+
+        User updatedUser = userRepository.save(user);
+        return mapToUserResponse(updatedUser);
+    }
+    @Transactional
+    public void deleteUser(Long id) {
+        User user = userRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Không tìm thấy người dùng cần xóa"));
+        if (user.getRole() == RoleEnum.Lecturer && userRepository.countCoursesByLecturerId(id) > 0) {
+            throw new ResourceConflictException("Không thể xóa Giảng viên này vì họ đang có lớp học phụ trách phụ thuộc!");
+        }
+
+        userRepository.delete(user);
+    }
+
+    // Hàm helper map nhanh sang DTO phản hồi gọn sạch
+    private UserResponse mapToUserResponse(User user) {
+        return UserResponse.builder()
+                .id(user.getId())
+                .username(user.getUsername())
+                .email(user.getEmail())
+                .role(user.getRole().name())
+                .active(user.isActive())
+                .build();
     }
 }

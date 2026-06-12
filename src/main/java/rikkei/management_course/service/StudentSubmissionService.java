@@ -1,6 +1,8 @@
 package rikkei.management_course.service;
 
+import com.cloudinary.Cloudinary;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,7 +18,9 @@ import rikkei.management_course.repository.AssignmentRepository;
 import rikkei.management_course.repository.SubmissionRepository;
 import rikkei.management_course.repository.UserRepository;
 
+import java.io.IOException;
 import java.time.LocalDateTime;
+import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
@@ -25,53 +29,80 @@ public class StudentSubmissionService {
     private final SubmissionRepository submissionRepository;
     private final AssignmentRepository assignmentRepository;
     private final UserRepository userRepository;
+    private final Cloudinary cloudinary; // Inject Cloudinary đám mây vào đây
 
     @Transactional
     public SubmissionResponse submitAssignment(SubmissionRequest request) {
-        // 1. Lấy thông tin sinh viên từ JWT bảo mật
+        // 1. Kiểm tra tính hợp lệ tối thiểu: Phải nộp ít nhất 1 trong 2 loại (Link hoặc File)
+        boolean hasLink = request.getGithubUrl() != null && !request.getGithubUrl().trim().isEmpty();
+        boolean hasFile = request.getFile() != null && !request.getFile().isEmpty();
+
+        if (!hasLink && !hasFile) {
+            throw new IllegalArgumentException("Vui lòng cung cấp link GitHub hoặc tải lên tệp tin bài nộp!");
+        }
+
+        // 2. Xác thực thông tin sinh viên từ JWT Token bảo mật ngầm
         String currentUsername = SecurityContextHolder.getContext().getAuthentication().getName();
         User student = userRepository.findByUsername(currentUsername)
                 .orElseThrow(() -> new ResourceNotFoundException("Không tìm thấy thông tin tài khoản sinh viên"));
 
-        // 2. Kiểm tra bài tập đồ án được giao có tồn tại không
+        // 3. Kiểm tra bài tập có tồn tại không
         Assignment assignment = assignmentRepository.findById(request.getAssignmentId())
                 .orElseThrow(() -> new ResourceNotFoundException("Bài tập / Đồ án không tồn tại trên hệ thống"));
 
-        // 3. RÀNG BUỘC: Kiểm tra sinh viên có thuộc danh sách lớp học của khóa học này không
+        // 4. Kiểm tra sinh viên có thuộc danh sách lớp học của khóa học này không
         if (!assignment.getCourse().getStudents().contains(student)) {
-            throw new ResourceConflictException("Bạn không được quyền nộp bài cho khóa học này do chưa đăng ký lớp!");
+            throw new AccessDeniedException("Bạn không được quyền nộp bài cho khóa học này do chưa đăng ký lớp!");
         }
 
-        // 4. Tính toán trạng thái dựa trên Deadline (State Transition Diagram)
+        // 5. Kiểm tra trạng thái bài nộp cũ (Nếu đã GRADED thì khóa cứng cấm sửa)
+        Submission submission = submissionRepository.findByStudentAndAssignment(student, assignment).orElse(null);
+        if (submission != null && submission.getStatus() == SubmissionStatus.GRADED) {
+            throw new ResourceConflictException("Đồ án đã được giảng viên chấm điểm, không thể thay đổi bài nộp!");
+        }
+
+        // 6. Xử lý xác định nguồn tài nguyên nộp bài (Ưu tiên File trước, Link GitHub sau)
+        String finalReportUrl = "";
+        if (hasFile) {
+            try {
+                // Đẩy file bài nộp lên Cloudinary, giữ nguyên tên và phần mở rộng của sinh viên
+                Map<?, ?> uploadOptions = Map.of(
+                        "folder", "student_submissions",
+                        "resource_type", "auto",
+                        "use_filename", true,
+                        "unique_filename", true,
+                        "filename_override", request.getFile().getOriginalFilename()
+                );
+                Map<?, ?> uploadResult = cloudinary.uploader().upload(request.getFile().getBytes(), uploadOptions);
+                finalReportUrl = uploadResult.get("secure_url").toString(); // Lấy link đám mây
+            } catch (IOException ex) {
+                throw new RuntimeException("Gặp lỗi trong quá trình lưu tệp tin lên đám mây Cloudinary: " + ex.getMessage());
+            }
+        } else {
+            // Nếu không nộp file thì lấy đường dẫn link GitHub
+            finalReportUrl = request.getGithubUrl().trim();
+        }
+
+        // 7. Tính toán mốc thời gian xem có bị muộn hạn (Deadline) không
         SubmissionStatus targetStatus = LocalDateTime.now().isAfter(assignment.getDeadline())
                 ? SubmissionStatus.LATE
                 : SubmissionStatus.SUBMITTED;
 
-        // 5. Kiểm tra xem sinh viên đã từng nộp bài này chưa (Luồng khởi tạo hoặc cập nhật đè link)
-        Submission submission = submissionRepository.findByStudentAndAssignment(student, assignment)
-                .orElse(null);
-
+        // 8. Tiến hành lưu hoặc cập nhật đè dữ liệu vào DB
         if (submission == null) {
-            // Trường hợp nộp lần đầu (Khởi tạo bản ghi mới)
             submission = Submission.builder()
                     .student(student)
                     .assignment(assignment)
-                    .reportUrl(request.getGithubUrl())
+                    .reportUrl(finalReportUrl)
                     .status(targetStatus)
                     .build();
         } else {
-            // Trường hợp nộp lại / Cập nhật đè link GitHub cũ
-            // RÀNG BUỘC: Nếu bài tập đã chấm điểm (GRADED), cấm không cho sửa đổi link
-            if (submission.getStatus() == SubmissionStatus.GRADED) {
-                throw new ResourceConflictException("Đồ án đã được giảng viên chấm điểm, không thể thay đổi bài nộp!");
-            }
-            submission.setReportUrl(request.getGithubUrl());
-            submission.setStatus(targetStatus); // Cập nhật lại nhãn SUBMITTED hoặc LATE theo mốc thời gian mới
+            submission.setReportUrl(finalReportUrl);
+            submission.setStatus(targetStatus); // Cập nhật lại nhãn nộp muộn nếu nộp đè sau deadline
         }
 
         Submission savedSubmission = submissionRepository.save(submission);
 
-        // 6. Trả về dữ liệu DTO sạch sẽ
         return SubmissionResponse.builder()
                 .id(savedSubmission.getId())
                 .assignmentId(savedSubmission.getAssignment().getId())
