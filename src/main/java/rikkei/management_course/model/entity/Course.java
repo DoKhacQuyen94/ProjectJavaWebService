@@ -2,6 +2,7 @@ package rikkei.management_course.model.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -26,6 +27,12 @@ public class Course {
     @JoinColumn(name = "lecturer_id", nullable = false)
     private User lecturer;
 
+    @OneToMany(mappedBy = "course", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<LectureMaterial> lectureMaterials;
+
+    @OneToMany(mappedBy = "course", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Assignment> assignments;
+
     @ManyToMany
     @JoinTable(
             name = "course_students",
@@ -33,7 +40,4 @@ public class Course {
             inverseJoinColumns = @JoinColumn(name = "student_id")
     )
     private Set<User> students;
-
-    @OneToMany(mappedBy = "course", cascade = CascadeType.ALL)
-    private Set<Assignment> assignments;
 }

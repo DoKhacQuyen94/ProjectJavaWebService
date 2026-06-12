@@ -53,10 +53,13 @@ public class LecturerMaterialService {
 
         try {
             // 4. THỰC HIỆN ĐẨY FILE LÊN ĐÁM MÂY CLOUDINARY
-            // Cấu hình lưu vào thư mục 'lecture_materials' trên Cloudinary và tự động nhận diện kiểu file (PDF/PPT/DOC)
+            // Cập nhật cấu hình để bảo toàn tên và phần mở rộng của tệp tài liệu
             Map<?, ?> uploadOptions = ObjectUtils.asMap(
                     "folder", "lecture_materials",
-                    "resource_type", "auto"
+                    "resource_type", "auto",
+                    "use_filename", true,          // Sử dụng tên file gốc
+                    "unique_filename", true,       // Thêm chuỗi ngẫu nhiên chống trùng lặp file
+                    "filename_override", file.getOriginalFilename() // Bù lại siêu dữ liệu tên + đuôi file đã mất
             );
 
             // Tiến hành upload và nhận về bản đồ kết quả phản hồi từ Cloudinary
@@ -78,7 +81,7 @@ public class LecturerMaterialService {
             return LectureMaterialResponse.builder()
                     .id(savedMaterial.getId())
                     .title(savedMaterial.getTitle())
-                    .fileUrl(savedMaterial.getFileUrl()) // Link HTTPS Cloudinary xịn đét
+                    .fileUrl(savedMaterial.getFileUrl()) // Link giờ đây đã có đuôi file chuẩn chỉ
                     .courseId(savedMaterial.getCourse().getId())
                     .courseName(savedMaterial.getCourse().getCourseName())
                     .build();
