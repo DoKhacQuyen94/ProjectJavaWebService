@@ -2,6 +2,9 @@ package rikkei.management_course.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.AccessDeniedException;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.DisabledException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -44,22 +47,36 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(body, HttpStatus.NOT_FOUND);
     }
     // Bắt lỗi sai tài khoản hoặc mật khẩu -> Trả về 401 Unauthorized
-    @ExceptionHandler(org.springframework.security.authentication.BadCredentialsException.class)
-    public ResponseEntity<Map<String, Object>> handleBadCredentials(org.springframework.security.authentication.BadCredentialsException ex) {
+    @ExceptionHandler(BadCredentialsException.class)
+    public ResponseEntity<Map<String, Object>> handleBadCredentials(BadCredentialsException ex) {
         Map<String, Object> body = new java.util.HashMap<>();
-        body.put("status", org.springframework.http.HttpStatus.UNAUTHORIZED.value());
+        body.put("status", HttpStatus.UNAUTHORIZED.value());
         body.put("error", "Unauthorized");
         body.put("message", "Tài khoản hoặc mật khẩu không chính xác!");
-        return new ResponseEntity<>(body, org.springframework.http.HttpStatus.UNAUTHORIZED);
+        return new ResponseEntity<>(body, HttpStatus.UNAUTHORIZED);
     }
 
     // Bắt lỗi tài khoản bị khóa (is_active = 0) -> Trả về 403 Forbidden
-    @ExceptionHandler(org.springframework.security.authentication.DisabledException.class)
-    public ResponseEntity<Map<String, Object>> handleDisabledAccount(org.springframework.security.authentication.DisabledException ex) {
+    @ExceptionHandler(DisabledException.class)
+    public ResponseEntity<Map<String, Object>> handleDisabledAccount(DisabledException ex) {
         Map<String, Object> body = new java.util.HashMap<>();
         body.put("status", org.springframework.http.HttpStatus.FORBIDDEN.value());
         body.put("error", "Forbidden");
         body.put("message", "Tài khoản của bạn đã bị khóa, vui lòng liên hệ Admin!");
         return new ResponseEntity<>(body, org.springframework.http.HttpStatus.FORBIDDEN);
+    }
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<Map<String, String>> handleIllegalArgument(IllegalArgumentException ex) {
+        Map<String, String> errors = new HashMap<>();
+        errors.put("error", "Bad Request");
+        errors.put("message", ex.getMessage());
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errors);
+    }
+    @ExceptionHandler(AccessDeniedException.class)
+    public ResponseEntity<Map<String, String>> handleAccessDenied(AccessDeniedException ex) {
+        Map<String, String> errors = new HashMap<>();
+        errors.put("error", "Forbidden");
+        errors.put("message", ex.getMessage());
+        return ResponseEntity.status(HttpStatus.FORBIDDEN).body(errors);
     }
 }

@@ -50,14 +50,15 @@ class LecturerMaterialServiceTest {
 
     @BeforeEach
     void setUp() {
-        // Giả lập thông tin SecurityContextHolder để lấy Username đăng nhập từ JWT
         SecurityContext securityContext = mock(SecurityContext.class);
         Authentication authentication = mock(Authentication.class);
-        when(securityContext.getAuthentication()).thenReturn(authentication);
-        when(authentication.getName()).thenReturn("lecturer_quyen");
+
+        // THÊM chữ lenient() vào trước hai dòng khiêu vũ này:
+        org.mockito.Mockito.lenient().when(securityContext.getAuthentication()).thenReturn(authentication);
+        org.mockito.Mockito.lenient().when(authentication.getName()).thenReturn("lecturer_quyen");
+
         SecurityContextHolder.setContext(securityContext);
 
-        // Khởi tạo dữ liệu mẫu để test
         mockLecturer = User.builder().id(1L).username("lecturer_quyen").build();
         mockCourse = Course.builder().id(100L).courseName("Java Web").lecturer(mockLecturer).build();
     }
