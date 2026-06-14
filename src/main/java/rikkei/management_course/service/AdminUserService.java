@@ -13,6 +13,7 @@ import rikkei.management_course.model.dto.request.UserUpdateRequest;
 import rikkei.management_course.model.dto.response.UserResponse;
 import rikkei.management_course.model.entity.RoleEnum;
 import rikkei.management_course.model.entity.User;
+import rikkei.management_course.repository.SubmissionRepository;
 import rikkei.management_course.repository.UserRepository;
 
 @Service
@@ -20,6 +21,7 @@ import rikkei.management_course.repository.UserRepository;
 public class AdminUserService {
 
     private final UserRepository userRepository;
+    private final SubmissionRepository submissionRepository;
     private final PasswordEncoder passwordEncoder;
 
     @Transactional(readOnly = true)
@@ -59,7 +61,7 @@ public class AdminUserService {
                 .username(request.getUsername())
                 .password(passwordEncoder.encode(request.getPassword()))
                 .email(request.getEmail())
-                .role(RoleEnum.valueOf(request.getRole().toUpperCase()))
+                .role(RoleEnum.valueOf(String.valueOf(request.getRole())))
                 .isActive(true) // Mặc định tạo xong là active luôn
                 .build();
 
@@ -86,11 +88,19 @@ public class AdminUserService {
     @Transactional
     public void deleteUser(Long id) {
         User user = userRepository.findById(id)
-                .orElseThrow(() -> new ResourceNotFoundException("Không tìm thấy người dùng cần xóa"));
+                .orElseThrow(() -> new ResourceNotFoundException("Không tìm thấy người dùng trên hệ thống"));
+
+        // 1. Rào chắn bảo vệ nếu xóa tài khoản LECTURER
         if (user.getRole() == RoleEnum.Lecturer && userRepository.countCoursesByLecturerId(id) > 0) {
-            throw new ResourceConflictException("Không thể xóa Giảng viên này vì họ đang có lớp học phụ trách phụ thuộc!");
+            throw new ResourceConflictException("Không thể xóa Giảng viên này vì họ đang có lớp học phụ trách!");
         }
 
+        // 2. FIX LỖI 1451: Rào chắn bảo vệ nếu xóa tài khoản STUDENT
+        if (user.getRole() == RoleEnum.Student && submissionRepository.countByStudentId(id) > 0) {
+            throw new ResourceConflictException("Không thể xóa Sinh viên này vì họ đã có lịch sử nộp bài tập / đồ án!");
+        }
+
+        // Nếu vượt qua hết rào chắn an toàn, tiến hành xóa cứng
         userRepository.delete(user);
     }
 

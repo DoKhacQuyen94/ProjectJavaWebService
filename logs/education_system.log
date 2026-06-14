@@ -1,19 +1,21 @@
-2026-06-12 14:27:28.418 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 9552 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
-2026-06-12 14:27:28.426 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
-2026-06-12 14:27:28.508 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-12 14:27:28.508 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-12 14:27:30.014 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-12 14:27:30.131 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98 ms. Found 6 JPA repository interfaces.
-2026-06-12 14:27:31.147 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2026-06-12 14:27:31.247 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2738 ms
-2026-06-12 14:27:31.455 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-06-12 14:27:31.561 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
-2026-06-12 14:27:32.386 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-12 14:27:32.440 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2026-06-12 14:27:32.947 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d14c448
-2026-06-12 14:27:32.952 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2026-06-12 14:27:33.063 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-06-12 14:27:33.097 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2026-06-14 12:35:41.497 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 12:35:41.512 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 12:35:41.619 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-14 12:35:41.620 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-14 12:35:43.585 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 12:35:43.767 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158 ms. Found 6 JPA repository interfaces.
+2026-06-14 12:35:45.501 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 12:35:45.536 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 12:35:45.537 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 12:35:45.683 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 4062 ms
+2026-06-14 12:35:46.135 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 12:35:46.416 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-06-14 12:35:48.071 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 12:35:48.158 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-14 12:35:48.724 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fdbdfde
+2026-06-14 12:35:48.727 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-14 12:35:48.863 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 12:35:48.901 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -25,31 +27,1222 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-06-12 14:36:20.186 [Test worker] INFO  r.m.LecturerMaterialControllerTest - Starting LecturerMaterialControllerTest using Java 21.0.7 with PID 10748 (started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
-2026-06-12 14:36:20.189 [Test worker] INFO  r.m.LecturerMaterialControllerTest - No active profile set, falling back to 1 default profile: "default"
-2026-06-12 14:36:23.237 [Test worker] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
+2026-06-14 12:35:52.356 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 12:35:52.474 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:35:52.611 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-14 12:35:53.787 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-14 12:35:53.966 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-14 12:35:54.818 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-14 12:35:54.825 [restartedMain] INFO  r.m.ManagementCourseApplication - Started ManagementCourseApplication in 14.236 seconds (process running for 15.932)
+2026-06-14 12:38:28.303 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-14 12:38:28.303 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-14 12:38:28.305 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-14 12:38:28.496 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.authenticateUser()
+2026-06-14 12:38:28.510 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.login()
+2026-06-14 12:38:28.876 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:38:29.037 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 160 ms
+2026-06-14 12:38:29.501 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.login() - Thời gian thực hiện: 989 ms
+2026-06-14 12:38:29.509 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.authenticateUser() - Thời gian thực hiện: 1012 ms
+2026-06-14 12:39:35.541 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.refreshTheToken()
+2026-06-14 12:39:35.542 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.refreshToken()
+2026-06-14 12:39:35.622 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:39:35.624 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 12:39:35.690 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.refreshToken() - Thời gian thực hiện: 147 ms
+2026-06-14 12:39:35.696 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.refreshTheToken() - Thời gian thực hiện: 154 ms
+2026-06-14 12:40:20.873 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:40:20.876 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 12:40:20.879 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.logout()
+2026-06-14 12:40:20.880 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.logout()
+2026-06-14 12:40:20.886 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.logout() - Thời gian thực hiện: 5 ms
+2026-06-14 12:40:20.889 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.logout() - Thời gian thực hiện: 10 ms
+2026-06-14 12:41:45.451 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.registerStudent()
+2026-06-14 12:41:45.453 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.registerStudent()
+2026-06-14 12:41:45.466 [http-nio-8080-exec-9] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: UserService.registerStudent() sau 12 ms. Chi tiết lỗi: Email này đã tồn tại trên hệ thống!
+2026-06-14 12:41:45.472 [http-nio-8080-exec-9] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AuthController.registerStudent() sau 20 ms. Chi tiết lỗi: Email này đã tồn tại trên hệ thống!
+2026-06-14 12:41:45.482 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [rikkei.management_course.exception.ResourceConflictException: Email này đã tồn tại trên hệ thống!]
+2026-06-14 12:41:51.395 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.registerStudent()
+2026-06-14 12:41:51.397 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.registerStudent()
+2026-06-14 12:41:51.804 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.registerStudent() - Thời gian thực hiện: 407 ms
+2026-06-14 12:41:51.814 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.registerStudent() - Thời gian thực hiện: 418 ms
+2026-06-14 12:52:15.118 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.authenticateUser()
+2026-06-14 12:52:15.120 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.login()
+2026-06-14 12:52:15.120 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:52:15.123 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 12:52:15.641 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.login() - Thời gian thực hiện: 521 ms
+2026-06-14 12:52:15.643 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.authenticateUser() - Thời gian thực hiện: 524 ms
+2026-06-14 12:52:41.299 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:52:41.302 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 12:52:41.312 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.createUser()
+2026-06-14 12:52:41.313 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.createUser()
+2026-06-14 12:52:41.713 [http-nio-8080-exec-4] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserService.createUser() sau 399 ms. Chi tiết lỗi: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER
+2026-06-14 12:52:41.715 [http-nio-8080-exec-4] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserController.createUser() sau 402 ms. Chi tiết lỗi: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER
+2026-06-14 12:52:41.716 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER]
+2026-06-14 12:52:53.566 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:52:53.569 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 12:52:53.580 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<rikkei.management_course.model.dto.response.UserResponse> rikkei.management_course.controller.AdminUserController.createUser(rikkei.management_course.model.dto.request.UserCreateRequest): [Field error in object 'userCreateRequest' on field 'role': rejected value [null]; codes [NotBlank.userCreateRequest.role,NotBlank.role,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userCreateRequest.role,role]; arguments []; default message [role]]; default message [Role không được để trống (ADMIN, LECTURER, STUDENT)]] ]
+2026-06-14 12:53:40.435 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:53:40.437 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 12:53:40.439 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.createUser()
+2026-06-14 12:53:40.440 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.createUser()
+2026-06-14 12:53:40.851 [http-nio-8080-exec-7] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserService.createUser() sau 411 ms. Chi tiết lỗi: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER
+2026-06-14 12:53:40.853 [http-nio-8080-exec-7] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserController.createUser() sau 414 ms. Chi tiết lỗi: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER
+2026-06-14 12:53:40.855 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER]
+2026-06-14 12:54:08.090 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:54:08.093 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 12:54:08.094 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.createUser()
+2026-06-14 12:54:08.095 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.createUser()
+2026-06-14 12:54:08.512 [http-nio-8080-exec-10] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserService.createUser() sau 416 ms. Chi tiết lỗi: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER
+2026-06-14 12:54:08.513 [http-nio-8080-exec-10] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserController.createUser() sau 418 ms. Chi tiết lỗi: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER
+2026-06-14 12:54:08.514 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER]
+2026-06-14 12:55:44.006 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2026-06-14 12:55:44.012 [Thread-1] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-14 12:55:44.038 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-14 12:55:44.045 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:55:44.052 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-14 12:55:44.064 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-14 12:55:44.214 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 12:55:44.215 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 12:55:44.636 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 12:55:44.667 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 6 JPA repository interfaces.
+2026-06-14 12:55:44.826 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 12:55:44.829 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 12:55:44.829 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 12:55:44.879 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 659 ms
+2026-06-14 12:55:44.960 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 12:55:45.065 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 12:55:45.068 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-06-14 12:55:45.097 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61436db9
+2026-06-14 12:55:45.098 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-06-14 12:55:45.101 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 12:55:45.104 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: management_course/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-14 12:55:45.403 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 12:55:45.512 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:55:45.787 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-14 12:55:45.963 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-14 12:55:47.064 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-14 12:55:47.070 [restartedMain] INFO  r.m.ManagementCourseApplication - Started ManagementCourseApplication in 2.909 seconds (process running for 1208.176)
+2026-06-14 12:55:47.072 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-14 12:55:48.960 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2026-06-14 12:55:48.961 [Thread-5] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-14 12:55:48.981 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-14 12:55:48.988 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:55:48.988 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-06-14 12:55:48.994 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-06-14 12:55:49.347 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 12:55:49.348 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 12:55:50.634 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 12:55:50.680 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
+2026-06-14 12:55:50.866 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 12:55:50.867 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 12:55:50.867 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 12:55:50.904 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1430 ms
+2026-06-14 12:55:51.291 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 12:55:51.454 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 12:55:51.458 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-06-14 12:55:51.496 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@522e1f25
+2026-06-14 12:55:51.496 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-06-14 12:55:51.499 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 12:55:51.501 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: management_course/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-14 12:55:52.018 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 12:55:52.064 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:55:52.310 [restartedMain] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminUserController': Lookup method resolution failed
+2026-06-14 12:55:52.310 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:55:52.311 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-06-14 12:55:52.318 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-06-14 12:55:52.318 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-06-14 12:55:52.326 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
 
-Using generated security password: 70ded45f-0961-4c27-91ac-36a19dab07a6
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-14 12:55:52.371 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'adminUserController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.7.jar:7.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.7.jar:7.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.7.jar:7.0.7]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.6.jar:4.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.6.jar:4.0.6]
+	at rikkei.management_course.ManagementCourseApplication.main(ManagementCourseApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.6.jar:4.0.6]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [rikkei.management_course.controller.AdminUserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@61cd8ddb]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.7.jar:7.0.7]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.7.jar:7.0.7]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: rikkei/management_course/model/dto/request/UserCreateRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.7.jar:7.0.7]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: rikkei.management_course.model.dto.request.UserCreateRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.6.jar:4.0.6]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 30 common frames omitted
+2026-06-14 12:55:56.019 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 12:55:56.019 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 12:55:56.335 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 12:55:56.371 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 6 JPA repository interfaces.
+2026-06-14 12:55:56.508 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 12:55:56.532 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 12:55:56.534 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 12:55:56.568 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 547 ms
+2026-06-14 12:55:56.619 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 12:55:56.683 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 12:55:56.686 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-06-14 12:55:56.701 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@207af0a0
+2026-06-14 12:55:56.701 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-06-14 12:55:56.703 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 12:55:56.704 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: management_course/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-14 12:55:56.880 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 12:55:56.906 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:55:57.082 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-14 12:55:57.230 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-14 12:55:57.544 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-14 12:55:57.547 [restartedMain] INFO  r.m.ManagementCourseApplication - Started ManagementCourseApplication in 1.568 seconds (process running for 1218.653)
+2026-06-14 12:55:57.548 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-14 12:56:32.645 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-14 12:56:32.645 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-14 12:56:32.647 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-06-14 12:56:32.712 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:56:32.718 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 6 ms
+2026-06-14 12:56:32.727 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.createUser()
+2026-06-14 12:56:32.729 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.createUser()
+2026-06-14 12:56:33.240 [http-nio-8080-exec-2] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserService.createUser() sau 511 ms. Chi tiết lỗi: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER
+2026-06-14 12:56:33.241 [http-nio-8080-exec-2] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserController.createUser() sau 513 ms. Chi tiết lỗi: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER
+2026-06-14 12:56:33.244 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: No enum constant rikkei.management_course.model.entity.RoleEnum.LECTURER]
+2026-06-14 12:56:33.395 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2026-06-14 12:56:33.396 [Thread-9] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-14 12:56:33.416 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-14 12:56:33.419 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:56:33.420 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-06-14 12:56:33.426 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-06-14 12:56:33.578 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 12:56:33.579 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 12:56:33.872 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 12:56:33.909 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 6 JPA repository interfaces.
+2026-06-14 12:56:34.071 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 12:56:34.072 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 12:56:34.072 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 12:56:34.106 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 523 ms
+2026-06-14 12:56:34.162 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 12:56:34.221 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 12:56:34.222 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-06-14 12:56:34.235 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ab8db6c
+2026-06-14 12:56:34.236 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-06-14 12:56:34.238 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 12:56:34.238 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: management_course/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-14 12:56:34.709 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 12:56:34.762 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:56:35.002 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-14 12:56:35.103 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-14 12:56:35.363 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-14 12:56:35.365 [restartedMain] INFO  r.m.ManagementCourseApplication - Started ManagementCourseApplication in 1.838 seconds (process running for 1256.472)
+2026-06-14 12:56:35.366 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-14 12:56:42.648 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-14 12:56:42.648 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-14 12:56:42.652 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-06-14 12:56:42.761 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:56:42.769 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 8 ms
+2026-06-14 12:56:42.787 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'rikkei.management_course.model.entity.RoleEnum'. Check configuration for 'role'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'rikkei.management_course.model.entity.RoleEnum'. Check configuration for 'role'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:115) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:161) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:56) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:73) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:131) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:124) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:589) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:543) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:512) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:448) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:398) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:170) ~[hibernate-validator-9.0.1.Final.jar:9.0.1.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:103) ~[spring-context-7.0.7.jar:7.0.7]
+	at org.springframework.boot.validation.autoconfigure.ValidatorAdapter.validate(ValidatorAdapter.java:69) ~[spring-boot-validation-4.0.6.jar:4.0.6]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:1399) ~[spring-context-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:290) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:163) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:174) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:376) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at rikkei.management_course.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:55) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2026-06-14 12:57:33.911 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2026-06-14 12:57:33.912 [Thread-16] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-14 12:57:33.930 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-14 12:57:33.932 [Thread-16] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:57:33.933 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-06-14 12:57:33.937 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-06-14 12:57:34.041 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 12:57:34.041 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 12:57:34.392 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 12:57:34.423 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 6 JPA repository interfaces.
+2026-06-14 12:57:34.564 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 12:57:34.569 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 12:57:34.570 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 12:57:34.599 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 556 ms
+2026-06-14 12:57:34.661 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 12:57:34.716 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 12:57:34.717 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-06-14 12:57:34.729 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59e3996c
+2026-06-14 12:57:34.729 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-06-14 12:57:34.730 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 12:57:34.730 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: management_course/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-14 12:57:34.893 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 12:57:34.927 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:57:35.065 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-14 12:57:35.140 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-14 12:57:35.356 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-14 12:57:35.358 [restartedMain] INFO  r.m.ManagementCourseApplication - Started ManagementCourseApplication in 1.347 seconds (process running for 1316.465)
+2026-06-14 12:57:35.359 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-14 12:57:36.776 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2026-06-14 12:57:36.777 [Thread-20] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-14 12:57:36.792 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-14 12:57:36.795 [Thread-20] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:57:36.795 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-06-14 12:57:36.798 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-06-14 12:57:36.885 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 12:57:36.886 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 12:57:37.111 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 12:57:37.132 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 6 JPA repository interfaces.
+2026-06-14 12:57:37.212 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 12:57:37.213 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 12:57:37.213 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 12:57:37.233 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 346 ms
+2026-06-14 12:57:37.266 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 12:57:37.313 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 12:57:37.314 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2026-06-14 12:57:37.328 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ad1b2fb
+2026-06-14 12:57:37.329 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2026-06-14 12:57:37.330 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 12:57:37.331 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: management_course/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-14 12:57:37.468 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 12:57:37.500 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 12:57:37.660 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-14 12:57:37.733 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-14 12:57:37.936 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-14 12:57:37.939 [restartedMain] INFO  r.m.ManagementCourseApplication - Started ManagementCourseApplication in 1.078 seconds (process running for 1319.046)
+2026-06-14 12:57:37.941 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-14 12:57:43.526 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-14 12:57:43.527 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-14 12:57:43.528 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-06-14 12:57:43.630 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:57:43.637 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 7 ms
+2026-06-14 12:57:43.661 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.createUser()
+2026-06-14 12:57:43.662 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.createUser()
+2026-06-14 12:57:44.102 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminUserService.createUser() - Thời gian thực hiện: 439 ms
+2026-06-14 12:57:44.111 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminUserController.createUser() - Thời gian thực hiện: 449 ms
+2026-06-14 12:59:02.692 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 12:59:02.694 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 12:59:02.696 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.deactivateUser()
+2026-06-14 12:59:02.696 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.deactivateUser()
+2026-06-14 12:59:02.708 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminUserService.deactivateUser() - Thời gian thực hiện: 12 ms
+2026-06-14 12:59:02.710 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminUserController.deactivateUser() - Thời gian thực hiện: 14 ms
+2026-06-14 13:00:15.896 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:00:15.899 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:00:15.900 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.deleteUser()
+2026-06-14 13:00:15.900 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.deleteUser()
+2026-06-14 13:00:15.907 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminUserService.deleteUser() - Thời gian thực hiện: 6 ms
+2026-06-14 13:00:16.422 [http-nio-8080-exec-7] WARN  org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 1451, SQLState: 23000
+2026-06-14 13:00:16.422 [http-nio-8080-exec-7] WARN  org.hibernate.orm.jdbc.error - Cannot delete or update a parent row: a foreign key constraint fails (`management_course`.`submissions`, CONSTRAINT `FK3p6y8mnhpwusdgqrdl4hcl72m` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`))
+2026-06-14 13:00:16.431 [http-nio-8080-exec-7] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserController.deleteUser() sau 531 ms. Chi tiết lỗi: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`management_course`.`submissions`, CONSTRAINT `FK3p6y8mnhpwusdgqrdl4hcl72m` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`))] [delete from users where id=?]; SQL [delete from users where id=?]; constraint [FK3p6y8mnhpwusdgqrdl4hcl72m]
+2026-06-14 13:00:16.432 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`management_course`.`submissions`, CONSTRAINT `FK3p6y8mnhpwusdgqrdl4hcl72m` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`))] [delete from users where id=?]; SQL [delete from users where id=?]; constraint [FK3p6y8mnhpwusdgqrdl4hcl72m]] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`management_course`.`submissions`, CONSTRAINT `FK3p6y8mnhpwusdgqrdl4hcl72m` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-7.0.2.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:145) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:268) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:79) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:119) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:634) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:505) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:381) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1484) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2111) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2033) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553) ~[spring-orm-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:687) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:408) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.service.AdminUserService$$SpringCGLIB$$0.deleteUser(<generated>) ~[main/:na]
+	at rikkei.management_course.controller.AdminUserController.deleteUser(AdminUserController.java:59) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:82) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.aspect.PerformanceLoggingAspect.logExecutionTime(PerformanceLoggingAspect.java:38) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.controller.AdminUserController$$SpringCGLIB$$0.deleteUser(<generated>) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:925) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:651) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:376) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at rikkei.management_course.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:55) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2026-06-14 13:05:42.848 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+2026-06-14 13:05:42.850 [Thread-24] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-14 13:05:42.868 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-14 13:05:42.871 [Thread-24] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 13:05:42.871 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2026-06-14 13:05:42.875 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2026-06-14 13:05:42.999 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 13:05:43.000 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 13:05:43.361 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 13:05:43.395 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 5 JPA repository interfaces.
+2026-06-14 13:05:43.575 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 13:05:43.578 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 13:05:43.578 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 13:05:43.615 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 612 ms
+2026-06-14 13:05:43.692 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 13:05:43.763 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 13:05:43.764 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2026-06-14 13:05:43.780 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58be8f05
+2026-06-14 13:05:43.780 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2026-06-14 13:05:43.782 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 13:05:43.783 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: management_course/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-14 13:05:43.941 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 13:05:44.018 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 13:05:44.338 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-14 13:05:44.559 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-14 13:05:45.265 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-14 13:05:45.268 [restartedMain] INFO  r.m.ManagementCourseApplication - Started ManagementCourseApplication in 2.311 seconds (process running for 1806.375)
+2026-06-14 13:05:45.270 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-14 13:06:53.728 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-14 13:06:53.728 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-14 13:06:53.729 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-06-14 13:06:53.778 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:06:53.783 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 5 ms
+2026-06-14 13:06:53.786 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.deleteUser()
+2026-06-14 13:06:53.788 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.deleteUser()
+2026-06-14 13:06:53.792 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminUserService.deleteUser() - Thời gian thực hiện: 4 ms
+2026-06-14 13:06:53.796 [http-nio-8080-exec-2] WARN  org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 1451, SQLState: 23000
+2026-06-14 13:06:53.796 [http-nio-8080-exec-2] WARN  org.hibernate.orm.jdbc.error - Cannot delete or update a parent row: a foreign key constraint fails (`management_course`.`submissions`, CONSTRAINT `FK3p6y8mnhpwusdgqrdl4hcl72m` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`))
+2026-06-14 13:06:53.800 [http-nio-8080-exec-2] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserController.deleteUser() sau 13 ms. Chi tiết lỗi: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`management_course`.`submissions`, CONSTRAINT `FK3p6y8mnhpwusdgqrdl4hcl72m` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`))] [delete from users where id=?]; SQL [delete from users where id=?]; constraint [FK3p6y8mnhpwusdgqrdl4hcl72m]
+2026-06-14 13:06:53.802 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`management_course`.`submissions`, CONSTRAINT `FK3p6y8mnhpwusdgqrdl4hcl72m` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`))] [delete from users where id=?]; SQL [delete from users where id=?]; constraint [FK3p6y8mnhpwusdgqrdl4hcl72m]] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`management_course`.`submissions`, CONSTRAINT `FK3p6y8mnhpwusdgqrdl4hcl72m` FOREIGN KEY (`student_id`) REFERENCES `users` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-7.0.2.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:145) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:268) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:79) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:119) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:634) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:505) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:381) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1484) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2111) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2033) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89) ~[hibernate-core-7.2.12.Final.jar:7.2.12.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553) ~[spring-orm-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:687) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:408) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.service.AdminUserService$$SpringCGLIB$$0.deleteUser(<generated>) ~[main/:na]
+	at rikkei.management_course.controller.AdminUserController.deleteUser(AdminUserController.java:59) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:82) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.aspect.PerformanceLoggingAspect.logExecutionTime(PerformanceLoggingAspect.java:38) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.controller.AdminUserController$$SpringCGLIB$$0.deleteUser(<generated>) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:925) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:651) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:376) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at rikkei.management_course.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:55) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2026-06-14 13:06:53.927 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-06-14 13:06:53.928 [Thread-28] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-14 13:06:53.946 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-14 13:06:53.952 [Thread-28] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 13:06:53.953 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2026-06-14 13:06:53.962 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2026-06-14 13:06:54.101 [restartedMain] INFO  r.m.ManagementCourseApplication - Starting ManagementCourseApplication using Java 21.0.7 with PID 14432 (C:\Users\DoKhacQuyen\Documents\JavaService\management_course\build\classes\java\main started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
+2026-06-14 13:06:54.101 [restartedMain] INFO  r.m.ManagementCourseApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-14 13:06:54.582 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-14 13:06:54.605 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 6 JPA repository interfaces.
+2026-06-14 13:06:54.700 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-14 13:06:54.701 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-14 13:06:54.701 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-06-14 13:06:54.725 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 621 ms
+2026-06-14 13:06:54.764 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-14 13:06:54.825 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-14 13:06:54.826 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2026-06-14 13:06:54.840 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2632960e
+2026-06-14 13:06:54.840 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2026-06-14 13:06:54.841 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-14 13:06:54.842 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/management_course?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: management_course/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-14 13:06:55.070 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-14 13:06:55.094 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 13:06:55.244 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-14 13:06:55.318 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-14 13:06:55.539 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-14 13:06:55.541 [restartedMain] INFO  r.m.ManagementCourseApplication - Started ManagementCourseApplication in 1.484 seconds (process running for 1876.648)
+2026-06-14 13:06:55.543 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-06-14 13:07:10.316 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-14 13:07:10.317 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-14 13:07:10.318 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-06-14 13:07:10.368 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:07:10.373 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 4 ms
+2026-06-14 13:07:10.375 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.deleteUser()
+2026-06-14 13:07:10.376 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.deleteUser()
+2026-06-14 13:07:10.397 [http-nio-8080-exec-2] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserService.deleteUser() sau 21 ms. Chi tiết lỗi: Không thể xóa Sinh viên này vì họ đã có lịch sử nộp bài tập / đồ án!
+2026-06-14 13:07:10.398 [http-nio-8080-exec-2] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminUserController.deleteUser() sau 23 ms. Chi tiết lỗi: Không thể xóa Sinh viên này vì họ đã có lịch sử nộp bài tập / đồ án!
+2026-06-14 13:07:10.401 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [rikkei.management_course.exception.ResourceConflictException: Không thể xóa Sinh viên này vì họ đã có lịch sử nộp bài tập / đồ án!]
+2026-06-14 13:08:25.002 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.authenticateUser()
+2026-06-14 13:08:25.004 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.login()
+2026-06-14 13:08:25.389 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:08:25.391 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:08:25.799 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.login() - Thời gian thực hiện: 796 ms
+2026-06-14 13:08:25.801 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.authenticateUser() - Thời gian thực hiện: 798 ms
+2026-06-14 13:08:36.885 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:08:36.888 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:08:36.903 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserController.getUsers()
+2026-06-14 13:08:36.904 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminUserService.getAllUsers()
+2026-06-14 13:08:36.960 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminUserService.getAllUsers() - Thời gian thực hiện: 55 ms
+2026-06-14 13:08:36.962 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminUserController.getUsers() - Thời gian thực hiện: 57 ms
+2026-06-14 13:08:36.969 [http-nio-8080-exec-6] WARN  o.s.d.w.c.SpringDataJackson3Configuration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-06-12 14:36:23.300 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
-2026-06-12 14:36:23.300 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
-2026-06-12 14:36:23.307 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
-2026-06-12 14:36:23.444 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-12 14:36:24.276 [Test worker] INFO  r.m.LecturerMaterialControllerTest - Started LecturerMaterialControllerTest in 4.699 seconds (process running for 6.957)
-2026-06-12 14:36:24.505 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'courseId' for method parameter type Long is not present]
-2026-06-12 14:39:51.380 [Test worker] INFO  r.m.LecturerMaterialControllerTest - Starting LecturerMaterialControllerTest using Java 21.0.7 with PID 15488 (started by DoKhacQuyen in C:\Users\DoKhacQuyen\Documents\JavaService\management_course)
-2026-06-12 14:39:51.380 [Test worker] INFO  r.m.LecturerMaterialControllerTest - No active profile set, falling back to 1 default profile: "default"
-2026-06-12 14:39:54.013 [Test worker] WARN  o.s.b.s.a.UserDetailsServiceAutoConfiguration - 
-
-Using generated security password: a11ade34-76c2-453a-95d9-d37a615f1e72
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-06-12 14:39:54.079 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
-2026-06-12 14:39:54.080 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
-2026-06-12 14:39:54.080 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
-2026-06-12 14:39:54.146 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-06-12 14:39:54.479 [Test worker] INFO  r.m.LecturerMaterialControllerTest - Started LecturerMaterialControllerTest in 3.684 seconds (process running for 5.652)
-2026-06-12 14:39:54.630 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'courseId' for method parameter type Long is not present]
+2026-06-14 13:09:33.926 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.authenticateUser()
+2026-06-14 13:09:33.929 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.login()
+2026-06-14 13:09:33.929 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:09:33.931 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:09:34.336 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.login() - Thời gian thực hiện: 406 ms
+2026-06-14 13:09:34.337 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.authenticateUser() - Thời gian thực hiện: 410 ms
+2026-06-14 13:09:55.233 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:09:55.235 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:09:55.236 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: StudentCourseController.enrollInCourse()
+2026-06-14 13:09:55.237 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: StudentCourseService.enrollInCourse()
+2026-06-14 13:09:55.267 [http-nio-8080-exec-8] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: StudentCourseService.enrollInCourse() sau 29 ms. Chi tiết lỗi: Bạn đã đăng ký tham gia khóa học này rồi!
+2026-06-14 13:09:55.268 [http-nio-8080-exec-8] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: StudentCourseController.enrollInCourse() sau 31 ms. Chi tiết lỗi: Bạn đã đăng ký tham gia khóa học này rồi!
+2026-06-14 13:09:55.270 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [rikkei.management_course.exception.ResourceConflictException: Bạn đã đăng ký tham gia khóa học này rồi!]
+2026-06-14 13:10:02.689 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:10:02.691 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:10:02.692 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: StudentCourseController.enrollInCourse()
+2026-06-14 13:10:02.692 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: StudentCourseService.enrollInCourse()
+2026-06-14 13:10:02.701 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: StudentCourseService.enrollInCourse() - Thời gian thực hiện: 8 ms
+2026-06-14 13:10:02.717 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: StudentCourseController.enrollInCourse() - Thời gian thực hiện: 25 ms
+2026-06-14 13:11:14.032 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:11:14.035 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:11:14.043 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json' is not supported]
+2026-06-14 13:11:28.594 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:11:28.596 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:11:28.598 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json' is not supported]
+2026-06-14 13:12:33.163 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:12:33.165 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:12:33.206 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: StudentSubmissionController.submitAssignment()
+2026-06-14 13:12:33.206 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: StudentSubmissionService.submitAssignment()
+2026-06-14 13:12:33.231 [http-nio-8080-exec-5] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: StudentSubmissionService.submitAssignment() sau 24 ms. Chi tiết lỗi: Đồ án đã được giảng viên chấm điểm, không thể thay đổi bài nộp!
+2026-06-14 13:12:33.232 [http-nio-8080-exec-5] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: StudentSubmissionController.submitAssignment() sau 26 ms. Chi tiết lỗi: Đồ án đã được giảng viên chấm điểm, không thể thay đổi bài nộp!
+2026-06-14 13:12:33.234 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [rikkei.management_course.exception.ResourceConflictException: Đồ án đã được giảng viên chấm điểm, không thể thay đổi bài nộp!]
+2026-06-14 13:13:34.313 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:13:34.315 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:13:34.318 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: StudentSubmissionController.submitAssignment()
+2026-06-14 13:13:34.319 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: StudentSubmissionService.submitAssignment()
+2026-06-14 13:13:34.331 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: StudentSubmissionService.submitAssignment() - Thời gian thực hiện: 12 ms
+2026-06-14 13:13:34.340 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: StudentSubmissionController.submitAssignment() - Thời gian thực hiện: 22 ms
+2026-06-14 13:14:02.525 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.authenticateUser()
+2026-06-14 13:14:02.527 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.login()
+2026-06-14 13:14:02.527 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:14:02.528 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:14:02.946 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.login() - Thời gian thực hiện: 419 ms
+2026-06-14 13:14:02.947 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.authenticateUser() - Thời gian thực hiện: 422 ms
+2026-06-14 13:14:25.730 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:14:25.732 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:14:25.756 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerSubmissionController.gradeSubmission()
+2026-06-14 13:14:25.756 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerSubmissionService.gradeSubmission()
+2026-06-14 13:14:25.764 [http-nio-8080-exec-1] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: LecturerSubmissionService.gradeSubmission() sau 7 ms. Chi tiết lỗi: Bạn không có quyền chấm điểm bài nộp này vì không phải giảng viên phụ trách khóa học!
+2026-06-14 13:14:25.764 [http-nio-8080-exec-1] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: LecturerSubmissionController.gradeSubmission() sau 8 ms. Chi tiết lỗi: Bạn không có quyền chấm điểm bài nộp này vì không phải giảng viên phụ trách khóa học!
+2026-06-14 13:14:25.765 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Bạn không có quyền chấm điểm bài nộp này vì không phải giảng viên phụ trách khóa học!]
+2026-06-14 13:14:33.244 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:14:33.246 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:14:33.247 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerSubmissionController.gradeSubmission()
+2026-06-14 13:14:33.248 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerSubmissionService.gradeSubmission()
+2026-06-14 13:14:33.256 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: LecturerSubmissionService.gradeSubmission() - Thời gian thực hiện: 7 ms
+2026-06-14 13:14:33.257 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: LecturerSubmissionController.gradeSubmission() - Thời gian thực hiện: 10 ms
+2026-06-14 13:15:10.459 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:15:10.462 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:15:10.468 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'file' is not present.]
+2026-06-14 13:16:00.834 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:16:00.837 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:16:00.841 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'file' is not present.]
+2026-06-14 13:17:53.174 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:17:53.176 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:17:53.184 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerMaterialController.uploadMaterial()
+2026-06-14 13:17:53.185 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerMaterialService.uploadMaterial()
+2026-06-14 13:17:53.190 [http-nio-8080-exec-7] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: LecturerMaterialService.uploadMaterial() sau 4 ms. Chi tiết lỗi: Bạn không có quyền đăng tải học liệu vào khóa học này!
+2026-06-14 13:17:53.191 [http-nio-8080-exec-7] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: LecturerMaterialController.uploadMaterial() sau 6 ms. Chi tiết lỗi: Bạn không có quyền đăng tải học liệu vào khóa học này!
+2026-06-14 13:17:53.192 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Bạn không có quyền đăng tải học liệu vào khóa học này!]
+2026-06-14 13:18:23.941 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:18:23.943 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:18:23.950 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerMaterialController.uploadMaterial()
+2026-06-14 13:18:23.950 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerMaterialService.uploadMaterial()
+2026-06-14 13:18:23.954 [http-nio-8080-exec-9] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: LecturerMaterialService.uploadMaterial() sau 3 ms. Chi tiết lỗi: Bạn không có quyền đăng tải học liệu vào khóa học này!
+2026-06-14 13:18:23.955 [http-nio-8080-exec-9] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: LecturerMaterialController.uploadMaterial() sau 5 ms. Chi tiết lỗi: Bạn không có quyền đăng tải học liệu vào khóa học này!
+2026-06-14 13:18:23.956 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.access.AccessDeniedException: Bạn không có quyền đăng tải học liệu vào khóa học này!]
+2026-06-14 13:19:46.016 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:19:46.018 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:19:46.023 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerMaterialController.uploadMaterial()
+2026-06-14 13:19:46.024 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: LecturerMaterialService.uploadMaterial()
+2026-06-14 13:19:48.970 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: LecturerMaterialService.uploadMaterial() - Thời gian thực hiện: 2946 ms
+2026-06-14 13:19:48.974 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: LecturerMaterialController.uploadMaterial() - Thời gian thực hiện: 2951 ms
+2026-06-14 13:27:08.370 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:27:08.373 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:27:35.625 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:27:35.627 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:27:35.629 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2026-06-14 13:27:54.818 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:27:54.820 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:27:54.833 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.String>> rikkei.management_course.controller.AuthController.changePassword(rikkei.management_course.model.dto.request.ChangePasswordRequest): [Field error in object 'changePasswordRequest' on field 'currentPassword': rejected value [null]; codes [NotBlank.changePasswordRequest.currentPassword,NotBlank.currentPassword,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [changePasswordRequest.currentPassword,currentPassword]; arguments []; default message [currentPassword]]; default message [Mật khẩu hiện tại không được để trống]] ]
+2026-06-14 13:28:21.815 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:28:21.818 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:28:21.819 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.changePassword()
+2026-06-14 13:28:21.820 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.changePassword()
+2026-06-14 13:28:23.019 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.changePassword() - Thời gian thực hiện: 1198 ms
+2026-06-14 13:28:23.039 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.changePassword() - Thời gian thực hiện: 1219 ms
+2026-06-14 13:28:53.041 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:28:53.043 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:28:53.045 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.changePassword()
+2026-06-14 13:28:53.046 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.changePassword()
+2026-06-14 13:28:54.176 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.changePassword() - Thời gian thực hiện: 1129 ms
+2026-06-14 13:28:54.187 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.changePassword() - Thời gian thực hiện: 1141 ms
+2026-06-14 13:29:22.240 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.authenticateUser()
+2026-06-14 13:29:22.242 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.login()
+2026-06-14 13:29:22.242 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:29:22.244 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:29:22.644 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.login() - Thời gian thực hiện: 402 ms
+2026-06-14 13:29:22.644 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.authenticateUser() - Thời gian thực hiện: 404 ms
+2026-06-14 13:30:02.689 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.forgotPassword()
+2026-06-14 13:30:02.691 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.forgotPassword()
+2026-06-14 13:30:02.699 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.forgotPassword() - Thời gian thực hiện: 6 ms
+2026-06-14 13:30:02.700 [http-nio-8080-exec-10] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.forgotPassword() - Thời gian thực hiện: 9 ms
+2026-06-14 13:30:54.447 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.resetPassword()
+2026-06-14 13:30:54.448 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.resetPassword()
+2026-06-14 13:30:54.875 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.resetPassword() - Thời gian thực hiện: 427 ms
+2026-06-14 13:30:54.885 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.resetPassword() - Thời gian thực hiện: 438 ms
+2026-06-14 13:37:23.368 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.authenticateUser()
+2026-06-14 13:37:23.370 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.login()
+2026-06-14 13:37:23.370 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:37:23.372 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:37:23.780 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.login() - Thời gian thực hiện: 410 ms
+2026-06-14 13:37:23.782 [http-nio-8080-exec-5] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.authenticateUser() - Thời gian thực hiện: 413 ms
+2026-06-14 13:37:33.429 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:37:33.431 [http-nio-8080-exec-7] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:38:30.781 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AuthController.authenticateUser()
+2026-06-14 13:38:30.782 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserService.login()
+2026-06-14 13:38:30.782 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:38:30.785 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:38:31.184 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserService.login() - Thời gian thực hiện: 400 ms
+2026-06-14 13:38:31.184 [http-nio-8080-exec-9] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AuthController.authenticateUser() - Thời gian thực hiện: 403 ms
+2026-06-14 13:38:47.077 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:38:47.079 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:38:47.086 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseController.createCourse()
+2026-06-14 13:38:47.087 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseService.createCourse()
+2026-06-14 13:38:47.098 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseService.createCourse() - Thời gian thực hiện: 10 ms
+2026-06-14 13:38:47.102 [http-nio-8080-exec-8] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseController.createCourse() - Thời gian thực hiện: 15 ms
+2026-06-14 13:39:29.279 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:39:29.281 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:39:29.284 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseController.updateCourse()
+2026-06-14 13:39:29.284 [http-nio-8080-exec-1] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseService.updateCourse()
+2026-06-14 13:39:29.287 [http-nio-8080-exec-1] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminCourseService.updateCourse() sau 2 ms. Chi tiết lỗi: Không tìm thấy khóa học
+2026-06-14 13:39:29.288 [http-nio-8080-exec-1] ERROR r.m.aspect.PerformanceLoggingAspect - XẢY RA LỖI TẠI: AdminCourseController.updateCourse() sau 4 ms. Chi tiết lỗi: Không tìm thấy khóa học
+2026-06-14 13:39:29.289 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Không tìm thấy khóa học] with root cause
+java.lang.RuntimeException: Không tìm thấy khóa học
+	at rikkei.management_course.service.AdminCourseService.lambda$updateCourse$1(AdminCourseService.java:49) ~[main/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at rikkei.management_course.service.AdminCourseService.updateCourse(AdminCourseService.java:49) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:82) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.aspect.PerformanceLoggingAspect.logExecutionTime(PerformanceLoggingAspect.java:38) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.service.AdminCourseService$$SpringCGLIB$$0.updateCourse(<generated>) ~[main/:na]
+	at rikkei.management_course.controller.AdminCourseController.updateCourse(AdminCourseController.java:41) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:82) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.aspect.PerformanceLoggingAspect.logExecutionTime(PerformanceLoggingAspect.java:38) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.7.jar:7.0.7]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.7.jar:7.0.7]
+	at rikkei.management_course.controller.AdminCourseController$$SpringCGLIB$$0.updateCourse(<generated>) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:914) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:650) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.7.jar:7.0.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.21.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:376) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:132) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:86) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at rikkei.management_course.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:55) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:385) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.5.jar:7.0.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.7.jar:7.0.7]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.21.jar:11.0.21]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2026-06-14 13:39:42.020 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:39:42.023 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:39:42.024 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseController.updateCourse()
+2026-06-14 13:39:42.025 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseService.updateCourse()
+2026-06-14 13:39:42.030 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseService.updateCourse() - Thời gian thực hiện: 5 ms
+2026-06-14 13:39:42.041 [http-nio-8080-exec-2] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseController.updateCourse() - Thời gian thực hiện: 17 ms
+2026-06-14 13:40:15.713 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:40:15.715 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 1 ms
+2026-06-14 13:40:15.716 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseController.deleteCourse()
+2026-06-14 13:40:15.717 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseService.deleteCourse()
+2026-06-14 13:40:15.746 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseService.deleteCourse() - Thời gian thực hiện: 28 ms
+2026-06-14 13:40:15.766 [http-nio-8080-exec-4] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseController.deleteCourse() - Thời gian thực hiện: 49 ms
+2026-06-14 13:40:45.178 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:40:45.180 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:40:45.184 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseController.getCourses()
+2026-06-14 13:40:45.184 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseService.getAllCourses()
+2026-06-14 13:40:45.190 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseService.getAllCourses() - Thời gian thực hiện: 5 ms
+2026-06-14 13:40:45.191 [http-nio-8080-exec-6] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseController.getCourses() - Thời gian thực hiện: 7 ms
+2026-06-14 13:40:52.211 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: UserDetailsServiceImpl.loadUserByUsername()
+2026-06-14 13:40:52.213 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: UserDetailsServiceImpl.loadUserByUsername() - Thời gian thực hiện: 2 ms
+2026-06-14 13:40:52.214 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseController.getCourses()
+2026-06-14 13:40:52.215 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - >>> BẮT ĐẦU CHẠY: AdminCourseService.getAllCourses()
+2026-06-14 13:40:52.226 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseService.getAllCourses() - Thời gian thực hiện: 11 ms
+2026-06-14 13:40:52.228 [http-nio-8080-exec-3] INFO  r.m.aspect.PerformanceLoggingAspect - <<< KẾT THÚC: AdminCourseController.getCourses() - Thời gian thực hiện: 13 ms
+2026-06-14 13:41:28.416 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-14 13:41:28.432 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-14 13:41:28.435 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-14 13:41:28.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2026-06-14 13:41:28.439 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.

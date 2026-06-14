@@ -9,4 +9,5 @@ import java.util.Optional;
 
 public interface SubmissionRepository extends JpaRepository<Submission, Long> {
     Optional<Submission> findByStudentAndAssignment(User student, Assignment assignment);
+    long countByStudentId(Long studentId);
 }

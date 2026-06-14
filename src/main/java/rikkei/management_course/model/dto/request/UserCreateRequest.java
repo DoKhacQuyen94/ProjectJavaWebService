@@ -2,8 +2,10 @@ package rikkei.management_course.model.dto.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import rikkei.management_course.model.entity.RoleEnum;
 
 @Data
 public class UserCreateRequest {
@@ -19,6 +21,6 @@ public class UserCreateRequest {
     @Email(message = "Email không đúng định dạng")
     private String email;
 
-    @NotBlank(message = "Role không được để trống (ADMIN, LECTURER, STUDENT)")
-    private String role;
+    @NotNull(message = "Role không được để trống (ADMIN, LECTURER, STUDENT)")
+    private RoleEnum role;
 }
